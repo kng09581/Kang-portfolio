@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>KANG'S PORTFOLIO</title>
+  <meta name="description" content="1-컬럼 포트폴리오 (스크린샷 무드 반영)" />
+
+  <!-- Web Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Inter + Noto Sans KR -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- Manrope (display) -->
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@700;800&display=swap" rel="stylesheet">
+  <!-- Pretendard Variable -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header" aria-label="헤더">
+    <div class="header-inner">
+      <div class="brand">KANG'S PORTFOLIO</div>
+      <nav class="nav" aria-label="주요 메뉴">
+        <a class="pill" href="#about">ABOUT</a>
+        <a class="pill" href="#projects">PROJECT</a>
+        <a class="pill" href="#contact">CONTACT</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="display about">ABOUT</h2>
+        <div class="kicker" aria-hidden="true">
+          <span>UI/UX DESIGN</span>
+          <span>PRODUCT DESIGN</span>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-columns">
+            <div class="about-name">
+              <span class="name">Kang Nagyeong </span> <span class="slash">/</span>
+            </div>
+            <div class="about-desc">
+              <p class="about-quote">작은 변화도, 더 나은 방향으로 가는 계단이 된다는 믿음으로.<br>사소해 보이는 개선도 다음 단계로 올라서는 확실한 한 계단이라 믿습니다.</p>
+              <p class="about-quote en">I believe even small changes become steps toward something better.<br>Even minor improvements are a sure step toward the next stage.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="divider">
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="display projects">
+          <span>PROJECTS</span>
+          <sup style="font-size:28px; font-weight:700; color:#777">(3)</sup>
+        </h2>
+
+        <div class="projects-wrap">
+          <!-- Big hero project -->
+          <article class="project-hero" aria-labelledby="wavit-title">
+            <img src="https://i.pinimg.com/1200x/15/50/3a/15503a819066888763f5b3bc96537a84.jpg" alt="Wavit surfing project" />
+            <div class="overlay"></div>
+            <div class="hero-caption">
+              <h3 id="wavit-title" class="proj-hero">WAVIT</h3>
+              <p class="proj-h-year">2025</p>
+              <span class="proj-h-chip">Surfing Platform</span>
+            </div>
+          </article>
+
+          <!-- Row project 2 -->
+          <article class="project-row first" aria-labelledby="p2-title">
+            <div>
+              <h3 id="p2-title" class="proj-title">AMATEUR LIKE PRO</h3>
+              <p class="proj-year">2024</p>
+              <span class="proj-chip">Soccer Matching Platform</span>
+              <div class="p-meta">
+                <div class="label">Tools</div><div>Figma / AI</div>
+                <div class="label">Device</div><div>Mobile</div>
+              </div>
+            </div>
+            <div class="p-thumb" aria-hidden="true">
+              <img src="https://i.pinimg.com/1200x/78/5d/af/785daf9edd4f7a465c65b01994b3f569.jpg" alt="Soccer field" />
+            </div>
+          </article>
+
+          <!-- Row project 3 -->
+          <article class="project-row" aria-labelledby="p3-title">
+            <div>
+              <h3 id="p3-title" class="proj-title">BEATS</h3>
+              <p class="proj-year">2024</p>
+              <span class="proj-chip">Beats by Dr. Dre</span>
+              <div class="p-meta">
+                <div class="label">Tools</div><div>Figma</div>
+                <div class="label">Device</div><div>Web</div>
+              </div>
+            </div>
+            <div class="p-thumb" aria-hidden="true">
+              <img src="https://i.pinimg.com/1200x/b7/c4/12/b7c4128bac66984b048ffee6ec731c79.jpg" alt="Headphones" />
+            </div>
+          </article>
+        </div>
+      </div>
+      <hr class="divider">
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="display contact">CONTACT</h2>
+        <div class="contact-grid">
+          <address class="address">
+            10F, 123 Teheran-ro,<br>
+            Gangnam-gu, Seoul 06236,<br>
+            Republic of Korea
+          </address>
+
+          <div class="contact-right">
+            <div class="links">
+              <a href="mailto:you@example.com">E-MAIL</a>
+              <a href="#" target="_blank" rel="noreferrer noopener">INSTAGRAM</a>
+              <a href="#" target="_blank" rel="noreferrer noopener">BEHANCE</a>
+            </div>
+            <a class="circle-btn" href="#top" aria-label="맨 위로">↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <small>© 2025 Kang Nagyeong. All rights reserved.</small>
+    </div>
+  </footer>
+</body>
+</html>
+
+<meta name="robots" content="noindex, nofollow">
